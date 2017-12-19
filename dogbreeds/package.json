@@ -16,7 +16,8 @@
     "mocha": "^4.0.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha *.test.js",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
